@@ -1,0 +1,40 @@
+
+
+
+*{
+    color: darkslategray;
+    font-size: 20px;
+}
+body{
+	max-width: 500px;
+	margin: 35px auto;
+}
+main {
+	max-width: calc(100vw - 20px);
+	margin: 0 10px;
+	display: grid;
+	grid-template-columns: 1fr;
+
+}
+
+
+
+
+/* body {
+	width: 480px;
+	max-width: 480px;
+	width: 100vw;
+    padding: 0 25px;
+} */
+/* main{
+	width: 100%;
+	display: grid;
+	justify-content: stretch;
+	margin: 35px;
+
+} */
+/* span{
+    font-weight: bolder;
+    color: darkslategray;
+    margin-right: 20px;
+} */
