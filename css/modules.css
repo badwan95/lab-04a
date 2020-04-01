@@ -1,0 +1,76 @@
+header {
+    outline:1px solid darkgrey;
+    color: white;
+    background-color: rgb(67, 114, 71);
+}
+aside{
+    outline:1px solid darkgrey;
+    background-color: rgb(160, 121, 211);
+}
+section{
+    color: white;
+    background-color: rgb(39, 92, 23);
+    outline:1px solid darkgrey;
+}
+.secondSection{
+    background-color: wheat;
+    color: black;
+}
+article{
+    background-color: #D8D8D8;
+    outline:1px solid darkgrey;
+}
+.first{
+    background-color: rgb(55, 15, 107);
+    color: rgb(175, 170, 170);
+}
+.second{
+    background-color: rgb(141, 137, 130);
+    color: black;
+}
+.third{
+    background-color: rgb(10, 124, 153);
+    color: black;
+}
+.fourth{
+    background-color: rgb(226, 111, 111);
+    color: black;
+}
+footer{
+    background-color: rgb(47, 182, 192);
+    outline:1px solid darkgrey;
+}
+
+@media (min-width: 768px){
+    header{
+        background-color: beige;
+        color: black;
+    }
+    aside {
+        background-color: violet;
+    }
+    section{
+        background-color: brown;
+    }
+    .secondSection{
+        background-color: rgb(173, 124, 206);
+        color: black;
+    }
+    .first{
+        background-color: rgb(148, 170, 148);
+        color: rgb(34, 4, 4);
+    }
+    .second{
+        background-color: rgb(161, 125, 63);
+        color: black;
+    }
+    .third{
+        background-color: rgb(226, 141, 13);
+        color: black;
+    }
+    .fourth{
+        background-color: rgb(70, 8, 8);
+        color: rgb(199, 199, 199);
+    }
+
+}

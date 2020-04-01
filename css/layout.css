@@ -1,0 +1,71 @@
+.desktop{
+    display: none;
+}
+header{
+    height: 75px;
+    text-align: center;
+    line-height: 75px;
+}
+aside{
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+}
+section{
+    height: 125px;
+    text-align: center;
+    line-height: 125px;
+}
+article{
+    width: 50%;
+    height: 250px;
+    text-align: center;
+    line-height: 250px;
+    float: left;
+}
+footer{
+    clear: both;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+}
+@media (min-width: 768px){
+    body{
+        width: 960px;
+    }
+    .desktop{
+        display: inline-block;
+    }
+    .mobile{
+        display: none;
+    }
+    header{
+        height: 100px;
+        line-height: 100px;
+    }
+    aside{
+        float: left;
+        width: 200px;
+        height: 600px;
+        line-height: 600px;
+    }
+    section{
+        float: left;
+        width: 380px;
+        height: 200px;
+        line-height: 200px;
+    }
+    article{
+        float: left;
+        width: 190px;
+        height: 250px;
+        line-height: 250px;
+    }
+    footer{
+        clear: none;
+        float: left;
+        width: 760px;
+        height: 150px;
+        line-height: 150px;
+    }
+}
